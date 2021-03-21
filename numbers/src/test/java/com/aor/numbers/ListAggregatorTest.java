@@ -40,6 +40,12 @@ public class ListAggregatorTest {
         int max = aggregator.max(list);
 
         Assertions.assertEquals(5, max);
+
+        max = aggregator.max(Arrays.asList(1,2,3,4,5,6,7,8,8));
+        Assertions.assertEquals(8,max);
+
+        max = aggregator.max(Arrays.asList(1,2,2));
+        Assertions.assertEquals(2, max);
     }
 
     @Test
