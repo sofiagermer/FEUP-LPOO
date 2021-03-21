@@ -1,0 +1,16 @@
+Square.java
+ Square
+Shape.java
+ Shape
+AreaStringOutputter.java
+ AreaStringOutputter
+AreaAggregator.java
+ AreaAggregator
+AreaXMLOutputter.java
+ AreaXMLOutputter
+Application.java
+ Application
+Circle.java
+ Circle
+Ellipse.java
+ Ellipse
