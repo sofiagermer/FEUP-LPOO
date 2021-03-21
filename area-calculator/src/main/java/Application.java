@@ -1,21 +1,35 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Application {
     public static void main(String[] args) {
-        AreaAggregator areaAggregator = new AreaAggregator();
-        HasArea shape1, shape2, shape3, shape4;
-        shape1 = new Circle(3);
-        shape2 = new Square(5);
-        shape3 = new Retangle(2,3);
-        shape4 = new Triangle(2,3);
+        AreaAggregator aggregator = new AreaAggregator();
 
-        areaAggregator.addShape(shape1);
-        areaAggregator.addShape(shape2);
-        areaAggregator.addShape(shape3);
-        areaAggregator.addShape(shape4);
+        aggregator.addShape(new Square(10));
+        aggregator.addShape(new Circle(5));
+        aggregator.addShape(new Circle(2));
+        aggregator.addShape(new Ellipse(2, 3));
+        aggregator.addShape(new Rectangle(10, 5));
+        aggregator.addShape(new Triangle(10, 2));
+        aggregator.addShape(new House(100));
 
-        AreaStringOutputter areaStringOutputter = new AreaStringOutputter(areaAggregator);
-        System.out.println(areaStringOutputter.output());
+        AreaStringOutputter stringOutputter = new AreaStringOutputter(aggregator);
+        AreaXMLOutputter xmlOutputter = new AreaXMLOutputter(aggregator);
 
-        AreaXMLOutputter areaXMLOutputter = new AreaXMLOutputter(areaAggregator);
-        System.out.println(areaXMLOutputter.outputXML());
+        System.out.println(stringOutputter.output());
+        System.out.println(xmlOutputter.output());
+
+        List<House> houses = new ArrayList<>();
+        houses.add(new House(50));
+        houses.add(new House(150));
+
+        City city = new City(houses);
+
+        AreaStringOutputter cityStringOutputter = new AreaStringOutputter(city);
+        AreaXMLOutputter cityXmlOutputter = new AreaXMLOutputter(city);
+
+        System.out.println(cityStringOutputter.output());
+        System.out.println(cityXmlOutputter.output());
     }
+
 }

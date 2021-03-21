@@ -1,8 +1,8 @@
-public class Retangle implements AreaShape {
+public class Rectangle implements AreaShape {
     private final int width;
     private final int height;
 
-    public Retangle(int width, int height) {
+    public Rectangle(int width, int height) {
         this.width = width;
         this.height = height;
     }

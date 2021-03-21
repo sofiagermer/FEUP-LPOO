@@ -1,11 +1,13 @@
+SumProvider.java
+ SumProvider
 AreaStringOutputter.java
  AreaStringOutputter
 AreaAggregator.java
  AreaAggregator
-Retangle.java
- Retangle
 House.java
  House
+City.java
+ City
 Square.java
  Square
 Line.java
@@ -14,6 +16,8 @@ Shape.java
  Shape
 Drawable.java
  Drawable
+Rectangle.java
+ Rectangle
 Triangle.java
  Triangle
 AreaXMLOutputter.java
