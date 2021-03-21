@@ -13,4 +13,9 @@ public class Ellipse extends Shape {
     public int getY_radius() {
         return y_radius;
     }
+
+    @Override
+    public double getArea() {
+        return Math.PI * x_radius * y_radius;
+    }
 }
