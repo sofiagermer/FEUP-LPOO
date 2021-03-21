@@ -1,4 +1,4 @@
-public class Ellipse extends Shape {
+public class Ellipse implements Shape {
     private final int x_radius;
     private final int y_radius;
     public Ellipse(int x_radius, int y_radius) {

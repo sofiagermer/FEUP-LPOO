@@ -1,4 +1,4 @@
-public class Retangle extends Shape{
+public class Retangle implements Shape {
     private final int width;
     private final int height;
 
