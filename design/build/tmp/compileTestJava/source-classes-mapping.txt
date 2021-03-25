@@ -1,0 +1,10 @@
+StringCaseChangerTest.java
+ StringCaseChangerTest
+StringRecipeTest.java
+ StringRecipeTest
+StringInverterTest.java
+ StringInverterTest
+StringDrinkTest.java
+ StringDrinkTest
+StringReplacerTest.java
+ StringReplacerTest

@@ -1,0 +1,12 @@
+StringCaseChanger.java
+ StringCaseChanger
+StringReplacer.java
+ StringReplacer
+StringRecipe.java
+ StringRecipe
+StringInverter.java
+ StringInverter
+StringTransformer.java
+ StringTransformer
+StringDrink.java
+ StringDrink
