@@ -14,4 +14,7 @@ public class StringBar extends Bar{
         this.hapyHour = false;
         notifyObservers();
     }
+    public void order(StringDrink drink, StringRecipe recipe){
+        recipe.mix(drink);
+    }
 }

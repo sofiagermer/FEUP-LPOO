@@ -16,9 +16,15 @@ Bar.java
  Bar
 BarObserver.java
  BarObserver
-HumanClient.java
- HumanClient
-Client.java
- Client
 StringBar.java
  StringBar
+Client.java
+ Client
+ImpatientStrategy.java
+ ImpatientStrategy
+HumanClient.java
+ HumanClient
+SmartStrategy.java
+ SmartStrategy
+OrderingStrategy.java
+ OrderingStrategy
