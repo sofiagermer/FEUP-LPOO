@@ -8,3 +8,5 @@ StringDrinkTest.java
  StringDrinkTest
 StringReplacerTest.java
  StringReplacerTest
+StringTransformerGroupTest.java
+ StringTransformerGroupTest

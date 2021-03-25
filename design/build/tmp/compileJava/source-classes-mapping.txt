@@ -10,3 +10,5 @@ StringTransformer.java
  StringTransformer
 StringDrink.java
  StringDrink
+StringTransformerGroup.java
+ StringTransformerGroup
