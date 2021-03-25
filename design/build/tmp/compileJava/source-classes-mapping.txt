@@ -12,3 +12,13 @@ StringDrink.java
  StringDrink
 StringTransformerGroup.java
  StringTransformerGroup
+Bar.java
+ Bar
+BarObserver.java
+ BarObserver
+HumanClient.java
+ HumanClient
+Client.java
+ Client
+StringBar.java
+ StringBar
