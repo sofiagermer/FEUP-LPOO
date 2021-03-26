@@ -10,7 +10,7 @@ StringReplacerTest.java
  StringReplacerTest
 StringTransformerGroupTest.java
  StringTransformerGroupTest
-BarTest.java
- BarTest
 HumanClientTest.java
  HumanClientTest
+BarTest.java
+ BarTest
